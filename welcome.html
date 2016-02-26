@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+	<img src="logo.png" width="50" height="50" alt="House Logo"> 
+	<title>MTL Apartment Hunt</title>
+</head>
+<body style ="background-color:black">
+	<h1 align ="center"><font color="#FFFFFF">MTL Apartment Hunt</font></h1>
+	<p align ="center"><img src="welcomePhoto.jpg" width="650" height="250" border= "0" alt="Montreal">
+	<p align = "center"><i><font color="#FFFFFF">MTL Apartment Hunt aims to make your Montreal apartment search as easy as possible. Simply make an account and we will provide you with access to hundreds of apartment options organized by size, cost, area, and move-in date. </font></i></p>
+	
+	<h3><i><font color="#FFFFFF"> Sign in </font></i></h3>
+
+	<form action = "cgi-bin/login.cgi" method="POST">  <!-- c program to check login attempt against members.csv -->
+		<label for = "Username"><font color="#FFFFFF">Username:</font></label><br>
+		<input id= "Username" name="Username" type="text"size="25">
+		<br>
+		<label for = "Password"><font color="#FFFFFF">Password:</font></label><br>
+		<input id = "Password" name="Password" type="password" size="25">
+		<input type="submit" value="Login">
+	</form>
+
+	<h2><font color="#FFFFFF">Not a member yet?</font></h2>
+	<p><a href="http://cgi.cs.mcgill.ca/~hpurdi/ApartmentHunt/signup.html">Become a member</a></p>
+	<p><small><font color="#808080"> &copy Coco&SkushLtd</font></small></p>
+</body>
+</html>
